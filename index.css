@@ -1,0 +1,99 @@
+img:hover {
+  cursor: pointer;
+}
+
+#gif-click {
+  position: absolute;
+  width: 40%;
+  height:60%;
+  top:20%;
+  left:30%;
+  display: inline-block;
+  z-index: 2;
+}
+
+#click {
+  position: absolute;
+  width: 35%;
+  height:12%;
+  top:20%;
+  left:33%;
+  background: transparent;
+  font-weight: bold;
+  z-index: 2;
+}
+
+a:active {
+  color: purple;
+}
+
+a:hover {
+  color: blue;
+}
+
+#eros {
+  width: 3.2em;
+}
+
+#thanatos {
+  width: 5em;
+}
+
+header {
+  top: 0; right: 0; bottom: 0; left: 0;
+  height: 80px;
+  position: fixed;
+}
+
+.button {
+  justify-content: center;
+  display: flex;
+  background-color: transparent; /* Green */
+  border: none;
+  color: white;
+  padding: 320px 300px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  color: rgb(255, 255, 255);
+  left: 0 px;
+}
+
+.button1 > a {
+  margin-left: -30px;
+}
+
+.button2 {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  background-color: transparent; 
+  color: black; 
+  right: 0px;
+}
+
+iframe {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -5;
+}
+
+#iframe-left {
+  left: 0;
+}
+
+#iframe-right {
+  left: 50%;
+}       

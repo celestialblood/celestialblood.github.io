@@ -110,6 +110,25 @@ img:hover {
   font-weight: bold;
 }
 
+#gif-click2 {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+#click2{
+  filter: invert(1);
+  position: absolute;
+  bottom: calc(20% - 150px) ;
+  width: 125px;
+  height: auto;
+  background: transparent;
+  font-weight: bold;
+}
+
 #sonido {
   filter: invert(1);
 

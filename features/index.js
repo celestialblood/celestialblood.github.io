@@ -24,3 +24,20 @@ $(function() {
         });
     }
 });
+$(function() {
+    $('#gif-click2').hide();
+
+    $('#click2').click(function() {
+        $('#click2').hide();
+        $('#gif-click2').show();
+
+    });
+
+    if ($('#click2').data("clicked", true)) {
+        $('#gif-click2').click(function() {
+            $('#click2').show();
+            $('#gif-click2').hide();
+        
+        });
+    }
+});
